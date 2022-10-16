@@ -14,7 +14,7 @@ Table of Contents
 
 ------------------------------
 
-- [Get Started](#Get Started)
+- [Get Started](#get-started)
 - [Interface](#interface)
 - [Run](#run)
 
