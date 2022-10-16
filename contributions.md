@@ -32,14 +32,12 @@
 
 1. Don't Create Pull Request to update "readme.md" or the "contributions.md" File.
 
-2. If you want to add corrections or design pictures or have a genuine update on the existing files, try it and if it is valid - will be accepted. But you need to make a new .md file inside the folder and add your content there.
+2. If you want to add corrections or have a genuine update on the existing files, try it and if it is valid - will be accepted. But you need to make the changes clear in the comment.
 
-3. Make a folder for your content and make your content limited to the folder only.
+3. Spammy Pull Requests will be marked spam and then closed.
 
-4. Spammy Pull Requests will be marked spam and then closed.
+4. The duplicate or copied content is strictly prohibited.
 
-5. The duplicate or copied content is strictly prohibited.
+5. The topic should be relevant or will be labeled invalid.
 
-6. The topic should be under System Design Concepts. It might be even remotely related but no other than that.
-
-7. Donot remove previous contents.
+6. Donot remove previous contents.
