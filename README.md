@@ -28,46 +28,31 @@ Table of Contents
 
 1. Download the code
 
-------------------------------
-
+```
 git clone https://github.com/ALUDeveloperStudentClub/alu-map.git
-
-------------------------------
-
+```
 
 2. Install all dependencies
 
-
-------------------------------
-
+```
 npm run install
-
-------------------------------
+```
 
 
 3. Run the application with docker-compose
 
-
-------------------------------
-
+```
 docker-compose up --build
-
-------------------------------
+```
 
 4. Run the application without docker
 
-
-------------------------------
-
+```
 npm run start
-
-------------------------------
+```
 
 5. Build the application
 
-
-------------------------------
-
+```
 npm run build
-
-------------------------------
+```
