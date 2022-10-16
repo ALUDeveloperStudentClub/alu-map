@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server side of the application",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALUDeveloperStudentClub/alu-map.git"
+  },
+  "keywords": [
+    "hacktoberfest",
+    "alu-map"
+  ],
+  "author": "alu-gdsc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ALUDeveloperStudentClub/alu-map/issues"
+  },
+  "homepage": "https://github.com/ALUDeveloperStudentClub/alu-map#readme"
+}
