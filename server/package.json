@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "server side of the application",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "test": "jest",
     "dev": "node src/server.js"
