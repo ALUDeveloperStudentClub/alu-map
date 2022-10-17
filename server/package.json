@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "server side of the application",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "jest",
     "dev": "node src/server.js"
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/ALUDeveloperStudentClub/alu-map#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "winston": "^3.8.2"
   }
 }
