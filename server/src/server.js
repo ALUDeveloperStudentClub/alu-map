@@ -1,6 +1,7 @@
 import dotenv from "dotenv";
 dotenv.config();
 import express from "express";
+import { logger } from "../logger.js";
 
 // initialize express application
 const app = express();
@@ -17,5 +18,5 @@ app.get("*", (req, res) => {
 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () =>
-	console.log(`Server is running in: http://localhost:${PORT}`)
+  logger.info(`Server is running in: http://localhost:${PORT}`)
 );
