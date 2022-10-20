@@ -1,5 +1,8 @@
 name: Run tests for client app
 on: push
+defaults:
+  run:
+    working-directory: ./client
 jobs:
   tests:
     runs-on: ubuntu-latest
@@ -12,9 +15,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: "node"
-      - run: cd ./client
-      # Install dependencies
+          cache: "npm"
+          cache-dependency-path: ./client/package.json
       - run: npm install
       # Run tests
       - run: npm test

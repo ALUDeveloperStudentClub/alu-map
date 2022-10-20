@@ -1,5 +1,8 @@
 name: Run tests for server app
 on: [push, pull_request]
+defaults:
+  run:
+    working-directory: ./server
 jobs:
   tests:
     runs-on: ubuntu-latest
@@ -12,8 +15,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: cd ./server
-      # Install dependencies
+          cache: "npm"
+          cache-dependency-path: ./server/package.json
       - run: npm install
       # Run tests
       - run: npm test
