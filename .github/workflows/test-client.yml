@@ -12,7 +12,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: "node"
+          cache: "npm"
       - run: cd ./client
       # Install dependencies
       - run: npm install
