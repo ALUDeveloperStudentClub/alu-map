@@ -1,7 +1,6 @@
-import dotenv from "dotenv";
-dotenv.config();
 import express from "express";
-import { logger } from "../logger.js";
+import { appconfigfile } from "./config/appconfig.js";
+import { logger } from "./services/logger.js";
 
 // initialize express application
 const app = express();
@@ -16,7 +15,7 @@ app.get("*", (req, res) => {
 	return res.json({ success: false, message: "Route not configured yet." });
 });
 
-const PORT = process.env.PORT || 8000;
+const PORT = appconfigfile.app.port;
 app.listen(PORT, () =>
   logger.info(`Server is running in: http://localhost:${PORT}`)
 );

@@ -2,16 +2,20 @@ version: '3.9'
 
 services:
   client:
-    container_name: client
-    image: client
+    restart: always
     build: 
       context: ./client/
     ports:
       - 8080:80
   server:
-    container_name: server
-    image: server
+    restart: always
     build:
       context: ./server/
     ports:
       - 8081:8000
+  mongodb:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example

@@ -1,12 +1,12 @@
-const mongoose = require("mongoose");
+import dotenv from "dotenv";
+dotenv.config();
 
-// eslint-disable-next-line no-undef
-const appconfigfile = { db: { uri: MONGO_DB_URI(from.env || docker_img) } };
+export const appconfigfile = { 
+  app: {
+    port: process.env.PORT || 8000
+  },
+  db: { 
+    uri: process.env.MONGO_URI || "docker_uri" 
+  } 
+};
 
-mongoose
-  .connect(appconfigfile.db.uri, {
-    useNewUrlParser: true,
-    useUnifiedToplogy: true,
-  })
-  .then((result) => console.log("Connected to mongodb..."))
-  .catch((err) => console.log(err));
