@@ -14,8 +14,7 @@ jobs:
           node-version: 16
           cache: "npm"
           cache-dependency-path: client/package.json
-      - run: cd ./client
-      # Install dependencies
-      - run: npm install
+      - working-directory: client
+        run: npm install
       # Run tests
       - run: npm test
