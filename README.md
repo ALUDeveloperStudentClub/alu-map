@@ -15,6 +15,7 @@ Table of Contents
 ------------------------------
 
 - [Get Started](#get-started)
+- [Api Documentation](#api-documentation)
 - [Interface](#interface)
 - [Run](#run)
 
@@ -56,3 +57,7 @@ npm run start
 ```
 npm run build
 ```
+
+#### Api Documentation
+
+[Link](https://docs.google.com/document/d/1AVpTVAlv9GJT-hp3yTv2hS9s9FhKGyfvJA-YhNLaADI/edit?usp=sharing)
