@@ -2,5 +2,5 @@ import { render } from '@testing-library/react';
 import App from './App';
 
 test('renders documentation', () => {
-  render(<App />);
+    render(<App />);
 });
