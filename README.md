@@ -4,8 +4,8 @@ ALU Map is a web-based platform that will help students move around ALU Rwanda C
 
 ## Introduction
 Please refer to [`CONTRIBUTING.md`](./contributions.md) for **contribution guidelines**.
-- Please feel free to raise any genuine issue you may have
-- You are welcome to contribute, please create PR if you have any links, books or courses that may benefit someone in the tech field. Don't forget to add that link to the respective documentation and course section. 
+- Please feel free to raise any genuine issue(s) you may have.
+- You are welcome to contribute(s), please create PR if you have any links, books or courses that may benefit someone in the tech field. Don't forget to add that link to the respective documentation and course section. 
 
 
 ------------------------------
@@ -15,6 +15,7 @@ Table of Contents
 ------------------------------
 
 - [Get Started](#get-started)
+- [Api Documentation](https://docs.google.com/document/d/1AVpTVAlv9GJT-hp3yTv2hS9s9FhKGyfvJA-YhNLaADI/edit?usp=sharing)
 - [Interface](#interface)
 - [Run](#run)
 
@@ -56,3 +57,4 @@ npm run start
 ```
 npm run build
 ```
+
