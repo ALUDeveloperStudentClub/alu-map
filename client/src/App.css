@@ -9,7 +9,7 @@
 
 a {
   color: #fff;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #root {
@@ -25,7 +25,7 @@ a {
   height: auto;
   justify-content: space-between;
   padding: 15px 40px;
-  background-color: #002E6D;
+  background-color: #002e6d;
 }
 
 #logoContainer {
@@ -40,10 +40,10 @@ a {
 
 #websiteLink {
   font-size: 15px;
-  background-color: #D00D2D;
+  background-color: #d00d2d;
   border-style: solid;
   border-width: 1px;
-  padding: 4px 15px; 
+  padding: 4px 15px;
 }
 
 #body {

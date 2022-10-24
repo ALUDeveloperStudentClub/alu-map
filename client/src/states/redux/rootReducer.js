@@ -1,8 +1,8 @@
 function rooteReducer(state, action) {
-  switch(action.type) {
+  switch (action.type) {
     default:
-        return state
-}
+      return state;
+  }
 }
 
 export default rooteReducer;
