@@ -1,0 +1,69 @@
+@media screen and (max-width: 500px) {
+    h3 {
+        font-size: 15px;
+    }
+    #websiteLink {
+        display: none;
+    }
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: #002e6d;
+}
+
+#logoContainer {
+    width: 120px;
+    height: 25px;
+}
+
+#logo {
+    width: 100%;
+    height: 100%;
+}
+
+#websiteLink {
+    font-size: 15px;
+    background-color: #d00d2d;
+    border-style: solid;
+    border-width: 1px;
+    padding: 4px 15px;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: #fff;
+    font-size: 15px;
+}
+
+h3 {
+    color: #fff;
+}
+
+li {
+    color: #fff;
+    font-size: 15px;
+    margin: 20px 0;
+}

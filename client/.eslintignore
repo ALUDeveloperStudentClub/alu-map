@@ -1,0 +1,5 @@
+**/*tests*
+tailwind.config.js
+.eslintrc.js
+**/**.*.js
+**/**.*.css
