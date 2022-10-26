@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -14,6 +15,9 @@ function NavBar() {
                     </li>
                     <li>
                         <Link to={'/contribution'}>Contribution</Link>
+                    </li>
+                    <li>
+                        <Link to={'/voiceAssistant'}>Voice Assistant</Link>
                     </li>
                 </ul>
             </div>
