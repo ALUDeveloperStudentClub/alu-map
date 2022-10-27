@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import Navbar from '../components/layout/navbar.layout';
 import Footer from '../components/layout/footer.layout';
